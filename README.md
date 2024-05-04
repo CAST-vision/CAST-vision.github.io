@@ -1,14 +1,14 @@
-# 3D Diffuser Actor
+# CAST
 
-This repository contains the source code for the [3D Diffuser Actor project page](https://3d-diffuser-actor.github.io/).
+This repository contains the source code for the [CAST project page](https://CAST.github.io/).
 
 If you find 3D Diffuser Actor useful for your work, please cite:
 
 ```bibtex
-@article{3d_diffuser_actor,
-  author = {Ke, Tsung-Wei and Gkanatsios, Nikolaos and Fragkiadaki, Katerina},
-  title = {Action Diffusion with 3D Scene Representations},
-  journal = {Arxiv},
-  year = {2024}
+@inproceedings{ke2023cast,
+  title={Learning Hierarchical Image Segmentation For Recognition and By Recognition},
+  author={Ke, Tsung-Wei and Mo, Sangwoo and Stella, X Yu},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2023}
 }
 ```

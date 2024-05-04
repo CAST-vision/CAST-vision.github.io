@@ -854,6 +854,29 @@
         </div>
     </section>
 
+    <section class="section">
+        <!-- Zero Shot. -->
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <h2 class="title is-3">Adaptive hierarchical segmentation to improved recognition</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            Our model performs segmentation and recognition simultaneously during test-time adaptation.  The intermediate hierarchical segmentation improves concurrently with the final image recognition, to bext explain the input image.
+                        </p>
+                    </div>
+                    <div class="content has-text-centered">
+                        <video id="put_grapes" autoplay controls muted loop playsinline width="70%">
+                            <source src="./static/videos/tta.mp4"
+                                    type="video/mp4">
+                        </video>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- hack to pull the below up vertically -->
     <span style="display:block; margin-top:-1.75em;"/>
 
@@ -865,7 +888,7 @@
                     <h2 class="title is-3">Discovery of parts from the whole on ImageNet</h2>
                     <div class="content has-text-justified">
                         <p>
-                        Without the need of any part annotations, our model generates high-quality hierarchical segmentation on ImageNet and COCO using only an image recognition objective.  Our color scheme has coarse-to-fine consistency: Colors in 8-way segmentations are matched between ViT and CAST, while colors in <font color="Cyan">16</font>(<font color="Red">32</font>)-way segmentations have the same hues as 8-way but vary in <font color="Cyan">saturation</font>(<font color="Red">value</font>) to reflect finer details. Our results more closely follow visual contours and successfully uncover entire objects with details. Our results more closely follow visual contours and successfully uncover entire objects with details like <font color="Red">neck</font>, <font color="Cyan">thin legs</font>, and <font color="Blue">long ears</font>.
+                        Without the need of any part annotations, our model generates high-quality hierarchical segmentation using only an image recognition objective.  Our color scheme has coarse-to-fine consistency: Colors in 8-way segmentations are matched between ViT and CAST, while colors in 16(32)-way segmentations have the same hues as 8-way but vary in <strong>saturation</strong>(<strong>value</strong>) to reflect finer details. Our results more closely follow visual contours and successfully uncover entire objects with details. Our results more closely follow visual contours and successfully uncover entire objects with details like <font color="Red">neck</font>, <font color="Cyan">thin legs</font>, and <font color="Blue">long ears</font>.
                         </p>
                     </div>
                     <div class="content has-text-centered">

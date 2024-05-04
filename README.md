@@ -2,7 +2,7 @@
 
 This repository contains the source code for the [CAST project page](https://CAST.github.io/).
 
-If you find 3D Diffuser Actor useful for your work, please cite:
+If you find CAST useful for your work, please cite:
 
 ```bibtex
 @inproceedings{ke2023cast,

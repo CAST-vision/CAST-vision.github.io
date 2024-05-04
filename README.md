@@ -1,6 +1,6 @@
 # CAST
 
-This repository contains the source code for the [CAST project page](https://CAST.github.io/).
+This repository contains the source code for the [CAST project page](https://CAST-vision.github.io/).
 
 If you find CAST useful for your work, please cite:
 
